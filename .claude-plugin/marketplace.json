@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills-instagram-espanol",
+  "description": "Paquete de habilidades de Instagram para Claude, en español",
+  "owner": {
+    "name": "Juan Sebastian Cruz - 1691 Agency",
+    "url": "https://github.com/1691agency"
+  },
+  "plugins": [
+    {
+      "name": "instagram-agente-es",
+      "description": "Trece habilidades de Claude en español para manejar una cuenta de Instagram, con calificador de ganchos, investigación de lo que funciona, revisor de textos y humanizador.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/1691agency/skills-instagram-espanol"
+    }
+  ]
+}

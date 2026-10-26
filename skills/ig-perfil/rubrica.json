@@ -1,0 +1,79 @@
+{
+  "version": "1.0-es",
+  "total": 100,
+  "note": "Doce puntos. Califica cada uno con honestidad: un puntaje generoso no le sirve a nadie. La mayoría de perfiles quedan entre 30 y 49 en la primera revisión. El peso de cada punto es a propósito: el campo del nombre, la primera línea de la bio y los tres fijados valen más que la foto, porque son lo que de verdad procesa un desconocido que llegó desde un reel antes de decidir si sigue la cuenta.",
+  "items": [
+    {
+      "id": "campo_nombre",
+      "points": 12,
+      "full_marks": "El campo del nombre (unos 30 caracteres, la línea en negrita, no el @usuario) lleva el nombre más lo que haces, en palabras que la gente busca: 'Dana Ruiz | Plantillas de propuestas'. El buscador de Instagram lee este campo y la mayoría de cuentas lo desperdicia con un nombre solo.",
+      "common_fail": "Solo un nombre, o un nombre con un emoji."
+    },
+    {
+      "id": "bio_primera_linea",
+      "points": 12,
+      "full_marks": "La primera línea dice para quién es esto y qué cambia para esa persona, en sus palabras. No un cargo, no una lista de adjetivos, no tres emojis separados por rayas.",
+      "common_fail": "'Emprendedor | Amante del café | Papá de perros'."
+    },
+    {
+      "id": "bio_resto",
+      "points": 8,
+      "full_marks": "El resto de los 150 caracteres lleva una prueba o una oferta concreta, y se lee como frases, no como una lista separada por rayas.",
+      "common_fail": "Una sopa de palabras clave, o espacio vacío."
+    },
+    {
+      "id": "tres_fijados",
+      "points": 10,
+      "full_marks": "Tres publicaciones fijadas arriba de la cuadrícula, cada una con un trabajo distinto: la mejor prueba, la explicación más clara de la oferta y la mejor presentación de la persona. No las tres con más vistas por casualidad.",
+      "common_fail": "Nada fijado, así que arriba aparece lo último que se publicó."
+    },
+    {
+      "id": "enlace",
+      "points": 8,
+      "full_marks": "Un solo destino que coincide con lo que la bio acaba de prometer. Instagram permite hasta cinco enlaces; más de dos ya es un menú, y un menú convierte peor que una puerta.",
+      "common_fail": "Un árbol de enlaces con once opciones, o ningún enlace."
+    },
+    {
+      "id": "destacadas",
+      "points": 8,
+      "full_marks": "De cuatro a seis historias destacadas con nombres de las preguntas que de verdad hace un comprador: Precios, Resultados, Cómo funciona, Quiénes somos. Portadas parejas. Nada de hace más de un año al principio.",
+      "common_fail": "'Random', 'Vida', 'Favs', o 14 destacadas sin orden."
+    },
+    {
+      "id": "cuadricula_legible",
+      "points": 8,
+      "full_marks": "Las primeras nueve portadas se entienden en miniatura y dicen de qué es la cuenta sin un solo toque. Las portadas de los reels se eligen a propósito, no se dejan en el primer cuadro.",
+      "common_fail": "Nueve portadas de una cara a mitad de palabra y sin texto."
+    },
+    {
+      "id": "foto",
+      "points": 6,
+      "full_marks": "La cara ocupa más o menos el 60% de un círculo que se ve de unos 40 píxeles. Ojos visibles, foto de los últimos dos años, fondo que no compite.",
+      "common_fail": "Una foto de cuerpo entero, un logo para una marca personal, o una foto con el brazo estirado en un cuarto oscuro."
+    },
+    {
+      "id": "usuario",
+      "points": 6,
+      "full_marks": "Se lee fácil, se puede decir en voz alta y es el mismo usuario que en las otras redes. Sin guiones bajos apilados ni números en lugar de letras.",
+      "common_fail": "Un usuario que nadie sabe escribir después de oírlo una vez."
+    },
+    {
+      "id": "categoria_contacto",
+      "points": 6,
+      "full_marks": "Cuenta profesional con una categoría que coincide con la oferta y botones de contacto que funcionan. Un correo que se revisa, no el de 2019.",
+      "common_fail": "Cuenta personal, así que no hay estadísticas ni botón de contacto."
+    },
+    {
+      "id": "actividad_reciente",
+      "points": 10,
+      "full_marks": "Publicó en los últimos siete días y respondió los comentarios de la publicación más reciente. Una cuenta que publicó por última vez en marzo parece cerrada.",
+      "common_fail": "Cinco semanas sin publicar, o una pared de comentarios sin responder."
+    },
+    {
+      "id": "presencia_historias",
+      "points": 6,
+      "full_marks": "Una historia publicada ahora mismo, o al menos casi todos los días. Es la diferencia entre un perfil y una persona.",
+      "common_fail": "Nunca hay círculo de historia."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "instagram-agente-es",
+  "description": "Trece habilidades de Claude en español para manejar una cuenta de Instagram: reels con 26 fórmulas de gancho calificadas y hoja de tiempos, investigación de lo que funciona en tu nicho, textos revisados contra el corte del feed, carruseles, historias, puntaje de perfil, plan semanal, comentarios, respuestas, mensajes, reutilización, auditorías y un humanizador que quita la huella de la IA. Traducción y adaptación de instagram-agent-skill de Jake Schincariol.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Sebastian Cruz - 1691 Agency",
+    "url": "https://github.com/1691agency"
+  },
+  "homepage": "https://github.com/1691agency/skills-instagram-espanol",
+  "repository": "https://github.com/1691agency/skills-instagram-espanol",
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "contenido", "español", "humanizar", "redes sociales", "marketing"]
+}

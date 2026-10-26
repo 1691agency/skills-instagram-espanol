@@ -1,0 +1,1455 @@
+{
+  "version": "1.0-es",
+  "note": "Lista que usan humanizar.py y detectar.py. Los reemplazos son palabras simples y buscan que la frase siga bien escrita. La búsqueda no distingue tildes ('máximo' y 'maximo' cuentan igual) ni mayúsculas. El último bloque de cada lista es propio de Instagram: relleno de textos y voces en off que no aparece en otras redes. Esta lista se armó para la versión en español y no es una traducción palabra por palabra del original en inglés. Edítala sin miedo: es para que sea tuya. Si una palabra que tú usas a propósito sale aquí, bórrala del archivo.",
+  "invisibles": [
+    {
+      "cp": "U+200B",
+      "name": "ESPACIO DE ANCHO CERO",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+200C",
+      "name": "NO UNIÓN DE ANCHO CERO",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+200D",
+      "name": "UNIÓN DE ANCHO CERO",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+2060",
+      "name": "UNIÓN DE PALABRAS",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+FEFF",
+      "name": "ESPACIO SIN SALTO DE ANCHO CERO / BOM",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+00AD",
+      "name": "GUION SUAVE",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+180E",
+      "name": "SEPARADOR DE VOCAL MONGOL",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+061C",
+      "name": "MARCA DE LETRA ÁRABE",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+200E",
+      "name": "MARCA DE IZQUIERDA A DERECHA",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+200F",
+      "name": "MARCA DE DERECHA A IZQUIERDA",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+E0000-U+E007F",
+      "name": "CARACTERES DE ETIQUETA (texto ASCII escondido)",
+      "action": "borrar"
+    },
+    {
+      "cp": "U+00A0",
+      "name": "ESPACIO DE NO SEPARACIÓN",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+202F",
+      "name": "ESPACIO ESTRECHO DE NO SEPARACIÓN",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+2009",
+      "name": "ESPACIO FINO",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+2007",
+      "name": "ESPACIO DE CIFRA",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+2003",
+      "name": "ESPACIO EME",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+2002",
+      "name": "ESPACIO ENE",
+      "action": "espacio"
+    },
+    {
+      "cp": "U+2063",
+      "name": "SEPARADOR INVISIBLE",
+      "action": "borrar"
+    }
+  ],
+  "tipografia": [
+    {
+      "from": "—",
+      "name": "RAYA",
+      "to": ", "
+    },
+    {
+      "from": "–",
+      "name": "SEMIRRAYA",
+      "to": "-"
+    },
+    {
+      "from": "‘",
+      "name": "COMILLA SIMPLE DE APERTURA",
+      "to": "'"
+    },
+    {
+      "from": "’",
+      "name": "COMILLA SIMPLE DE CIERRE",
+      "to": "'"
+    },
+    {
+      "from": "“",
+      "name": "COMILLA DOBLE DE APERTURA",
+      "to": "\""
+    },
+    {
+      "from": "”",
+      "name": "COMILLA DOBLE DE CIERRE",
+      "to": "\""
+    },
+    {
+      "from": "…",
+      "name": "PUNTOS SUSPENSIVOS EN UN SOLO CARÁCTER",
+      "to": "..."
+    },
+    {
+      "from": "′",
+      "name": "SIGNO PRIMA",
+      "to": "'"
+    },
+    {
+      "from": "·",
+      "name": "PUNTO MEDIO",
+      "to": "-"
+    },
+    {
+      "from": "•",
+      "name": "VIÑETA",
+      "to": "-"
+    },
+    {
+      "from": "→",
+      "name": "FLECHA A LA DERECHA",
+      "to": "->"
+    }
+  ],
+  "palabras": [
+    {
+      "buscar": "sumergirse en",
+      "reemplazo": "meterse en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "sumérgete en",
+      "reemplazo": "entra a",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "sumergirte en",
+      "reemplazo": "meterte en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "sumergirnos en",
+      "reemplazo": "meternos en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "adentrarse en",
+      "reemplazo": "entrar en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "adéntrate en",
+      "reemplazo": "entra a",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "adentrarnos en",
+      "reemplazo": "entrar en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "profundicemos en",
+      "reemplazo": "veamos",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "exploremos",
+      "reemplazo": "veamos",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "descubramos",
+      "reemplazo": "veamos",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "descubre",
+      "reemplazo": "mira",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "potenciar",
+      "reemplazo": "mejorar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "potenciando",
+      "reemplazo": "mejorando",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "optimizar",
+      "reemplazo": "mejorar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "optimiza",
+      "reemplazo": "mejora",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "optimizando",
+      "reemplazo": "mejorando",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "maximizar",
+      "reemplazo": "subir",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "impulsar",
+      "reemplazo": "hacer crecer",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "impulsando",
+      "reemplazo": "haciendo crecer",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "fomentar",
+      "reemplazo": "crear",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "desbloquear",
+      "reemplazo": "conseguir",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "desbloquea",
+      "reemplazo": "consigue",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "eleva tu",
+      "reemplazo": "mejora tu",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "elevar tu",
+      "reemplazo": "mejorar tu",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "elevar la experiencia",
+      "reemplazo": "mejorar la experiencia",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "revolucionar",
+      "reemplazo": "cambiar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "revoluciona",
+      "reemplazo": "cambia",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "redefinir",
+      "reemplazo": "cambiar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "redefine",
+      "reemplazo": "cambia",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "empoderar",
+      "reemplazo": "fortalecer",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "apalancar",
+      "reemplazo": "usar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "apalancarse en",
+      "reemplazo": "apoyarse en",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "catapultar",
+      "reemplazo": "subir",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "dinamizar",
+      "reemplazo": "mover",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "embarcarse en",
+      "reemplazo": "empezar",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "embárcate en",
+      "reemplazo": "empieza",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "brindarte",
+      "reemplazo": "darte",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "brindarles",
+      "reemplazo": "darles",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "te brindamos",
+      "reemplazo": "te damos",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "les brindamos",
+      "reemplazo": "les damos",
+      "familia": "verbos"
+    },
+    {
+      "buscar": "crucial",
+      "reemplazo": "importante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "cruciales",
+      "reemplazo": "importantes",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "fundamental",
+      "reemplazo": "importante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "fundamentales",
+      "reemplazo": "importantes",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "vital",
+      "reemplazo": "importante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "primordial",
+      "reemplazo": "importante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "es imprescindible",
+      "reemplazo": "hace falta",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "es indispensable",
+      "reemplazo": "hace falta",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "robusto",
+      "reemplazo": "sólido",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "robusta",
+      "reemplazo": "sólida",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "holístico",
+      "reemplazo": "completo",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "holística",
+      "reemplazo": "completa",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "exhaustivo",
+      "reemplazo": "completo",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "exhaustiva",
+      "reemplazo": "completa",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "innovador",
+      "reemplazo": "nuevo",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "innovadora",
+      "reemplazo": "nueva",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "innovadores",
+      "reemplazo": "nuevos",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "innovadoras",
+      "reemplazo": "nuevas",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "revolucionario",
+      "reemplazo": "nuevo",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "revolucionaria",
+      "reemplazo": "nueva",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "disruptivo",
+      "reemplazo": "nuevo",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "disruptiva",
+      "reemplazo": "nueva",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "transformador",
+      "reemplazo": "grande",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "transformadora",
+      "reemplazo": "grande",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "inigualable",
+      "reemplazo": "difícil de igualar",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "incomparable",
+      "reemplazo": "difícil de igualar",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "excepcional",
+      "reemplazo": "fuera de serie",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "meticuloso",
+      "reemplazo": "cuidadoso",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "meticulosa",
+      "reemplazo": "cuidadosa",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "meticulosamente",
+      "reemplazo": "con cuidado",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "minucioso",
+      "reemplazo": "detallado",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "minuciosa",
+      "reemplazo": "detallada",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "fascinante",
+      "reemplazo": "interesante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "apasionante",
+      "reemplazo": "interesante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "cautivador",
+      "reemplazo": "interesante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "cautivadora",
+      "reemplazo": "interesante",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "multifacético",
+      "reemplazo": "variado",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "multifacética",
+      "reemplazo": "variada",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "invaluable",
+      "reemplazo": "muy útil",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "eficazmente",
+      "reemplazo": "bien",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "eficientemente",
+      "reemplazo": "bien",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "significativamente",
+      "reemplazo": "mucho",
+      "familia": "adjetivos"
+    },
+    {
+      "buscar": "el panorama",
+      "reemplazo": "la situación",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un panorama",
+      "reemplazo": "una situación",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "ecosistema",
+      "reemplazo": "sistema",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "paradigma",
+      "reemplazo": "modelo",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "sinergia",
+      "reemplazo": "colaboración",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "sinergias",
+      "reemplazo": "colaboraciones",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un tapiz de",
+      "reemplazo": "una mezcla de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "el tapiz de",
+      "reemplazo": "la mezcla de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un entramado de",
+      "reemplazo": "una red de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "el entramado de",
+      "reemplazo": "la red de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "piedra angular",
+      "reemplazo": "base",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un pilar fundamental",
+      "reemplazo": "una base",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "el pilar fundamental",
+      "reemplazo": "la base",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "pieza clave",
+      "reemplazo": "parte importante",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "una hoja de ruta",
+      "reemplazo": "un plan",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "la hoja de ruta",
+      "reemplazo": "el plan",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "tu hoja de ruta",
+      "reemplazo": "tu plan",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "estrella polar",
+      "reemplazo": "meta",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "curaduría",
+      "reemplazo": "selección",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "excelencia",
+      "reemplazo": "calidad",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "asimismo,",
+      "reemplazo": "también",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "asimismo",
+      "reemplazo": "también",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "adicionalmente,",
+      "reemplazo": "también",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "adicionalmente",
+      "reemplazo": "también",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "por ende",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "por consiguiente",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en consecuencia",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "no obstante,",
+      "reemplazo": "pero",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "no obstante",
+      "reemplazo": "pero",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en última instancia",
+      "reemplazo": "al final",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en esencia",
+      "reemplazo": "básicamente",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en conclusión,",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en conclusión",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en definitiva,",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en definitiva",
+      "reemplazo": "así que",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en lo que respecta a",
+      "reemplazo": "con",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "cuando se trata de",
+      "reemplazo": "en",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "con el fin de",
+      "reemplazo": "para",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "con el objetivo de",
+      "reemplazo": "para",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "con el propósito de",
+      "reemplazo": "para",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en el ámbito de",
+      "reemplazo": "en",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "en el marco de",
+      "reemplazo": "en",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "de manera significativa",
+      "reemplazo": "mucho",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "de manera efectiva",
+      "reemplazo": "bien",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "de forma efectiva",
+      "reemplazo": "bien",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "de manera eficiente",
+      "reemplazo": "bien",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "sin lugar a dudas",
+      "reemplazo": "seguro",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "sin duda alguna",
+      "reemplazo": "seguro",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "cabe destacar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "cabe mencionar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "cabe resaltar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "es importante destacar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "es importante mencionar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "es importante señalar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "vale la pena mencionar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "vale la pena destacar que",
+      "reemplazo": "",
+      "familia": "conectores"
+    },
+    {
+      "buscar": "un sinfín de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "una plétora de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un amplio abanico de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un abanico de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "una amplia gama de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "una amplia variedad de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "una miríada de",
+      "reemplazo": "un montón de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "es un testimonio de",
+      "reemplazo": "es una prueba de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "un testimonio de",
+      "reemplazo": "una prueba de",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "game changer",
+      "reemplazo": "cambio grande",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "game-changer",
+      "reemplazo": "cambio grande",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "must have",
+      "reemplazo": "básico",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "must-have",
+      "reemplazo": "básico",
+      "familia": "sustantivos"
+    },
+    {
+      "buscar": "deep dive",
+      "reemplazo": "repaso a fondo",
+      "familia": "sustantivos"
+    }
+  ],
+  "frases": [
+    {
+      "buscar": "en el vertiginoso mundo actual",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el vertiginoso mundo de",
+      "reemplazo": "en",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el vertiginoso mundo del",
+      "reemplazo": "en el",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el cambiante mundo de",
+      "reemplazo": "en",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el cambiante mundo del",
+      "reemplazo": "en el",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el mundo actual",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el mundo de hoy",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en la era digital",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en la actualidad",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en el panorama actual",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "hoy en día",
+      "reemplazo": "hoy",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en constante evolución",
+      "reemplazo": "que cambia rápido",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "en un mundo donde",
+      "reemplazo": "ahora que",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "seamos honestos",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "seamos sinceros",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "imagina esto",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "imagina un mundo donde",
+      "reemplazo": "imagina que",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "no es ningún secreto que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "no es un secreto que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "todos hemos estado ahí",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "me emociona anunciar que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "me emociona compartir que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "estoy emocionado de anunciar que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "estoy emocionada de anunciar que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "estoy feliz de anunciar que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "sin más preámbulos",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "abróchate el cinturón",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "la dura verdad es que",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "alerta de spoiler",
+      "reemplazo": "",
+      "familia": "aperturas"
+    },
+    {
+      "buscar": "deja que eso se asiente",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "léelo de nuevo",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "vuelve a leerlo",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "la decisión es tuya",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "la elección es tuya",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "el futuro es ahora",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "al final del día",
+      "reemplazo": "al final",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "déjalo en los comentarios",
+      "reemplazo": "",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "déjame saber",
+      "reemplazo": "cuéntame",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "déjanos saber",
+      "reemplazo": "cuéntanos",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "mover la aguja",
+      "reemplazo": "hacer la diferencia",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "lleva tu negocio al siguiente nivel",
+      "reemplazo": "haz crecer tu negocio",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "al siguiente nivel",
+      "reemplazo": "más lejos",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "al próximo nivel",
+      "reemplazo": "más lejos",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "una experiencia única",
+      "reemplazo": "una experiencia",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "una experiencia inolvidable",
+      "reemplazo": "algo que vas a recordar",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "único en su clase",
+      "reemplazo": "distinto",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "única en su clase",
+      "reemplazo": "distinta",
+      "familia": "cierres"
+    },
+    {
+      "buscar": "deja de hacer scroll",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "no hagas scroll",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "para de hacer scroll",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "para de scrollear",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "en el video de hoy",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "en este video te voy a mostrar",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "en este video les voy a mostrar",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "en este video te voy a enseñar",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "en este video les voy a enseñar",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "quédate hasta el final",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "mira hasta el final",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "no vas a creer",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "no lo vas a creer",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "nadie está hablando de esto",
+      "reemplazo": "poca gente hace esto",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "nadie habla de esto",
+      "reemplazo": "poca gente habla de esto",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "esto lo cambió todo",
+      "reemplazo": "esto funcionó",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "esto cambió todo",
+      "reemplazo": "esto funcionó",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "esta es tu señal para",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "poco sabía yo",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "avancemos rápido hasta hoy",
+      "reemplazo": "hoy",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "y así sin más",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "el resto es historia",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "corre, no camines",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "corre no camines",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "no te lo pierdas",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "no te duermas con esto",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "sígueme para más contenido",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "síguenos para más contenido",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "sígueme para más",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "síguenos para más",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "dale doble tap si",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "doble toque si",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "etiqueta a alguien que necesite esto",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "etiqueta a alguien que necesita esto",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "comparte esto con alguien que lo necesite",
+      "reemplazo": "",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "el algoritmo ama",
+      "reemplazo": "Instagram empuja",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "al algoritmo le encanta",
+      "reemplazo": "a Instagram le sirve",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "ganarle al algoritmo",
+      "reemplazo": "tener alcance",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "hackear el algoritmo",
+      "reemplazo": "tener alcance",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "volverse viral de la noche a la mañana",
+      "reemplazo": "tener alcance",
+      "familia": "instagram"
+    },
+    {
+      "buscar": "hacerse viral de la noche a la mañana",
+      "reemplazo": "tener alcance",
+      "familia": "instagram"
+    }
+  ],
+  "estructuras": [
+    {
+      "id": "no-es-solo",
+      "regex": "(?i)\\bno (?:es|son) (?:solo|sólo|solamente|simplemente) [^.!?\\n]{2,60}[,.;]\\s*(?:es|son)\\b",
+      "name": "\"No es solo X, es Y\"",
+      "fix": "Di la única cosa que de verdad quieres decir. Borra la mitad que prepara."
+    },
+    {
+      "id": "no-solo-sino",
+      "regex": "(?i)\\bno (?:solo|sólo|solamente)\\b[^.!?\\n]{2,80}\\bsino (?:tambi[eé]n|que)\\b",
+      "name": "\"No solo X, sino también Y\"",
+      "fix": "Divídelo en dos frases, o quita la mitad más débil."
+    },
+    {
+      "id": "no-se-trata",
+      "regex": "(?i)\\bno se trata de [^.!?\\n]{2,60}[.,;]\\s*se trata de\\b|\\b(?:esto )?no es sobre [^.!?\\n]{2,60}[.,;]\\s*es sobre\\b",
+      "name": "\"No se trata de X. Se trata de Y.\"",
+      "fix": "Empieza por Y. La vuelta es lo que delata."
+    },
+    {
+      "id": "el-resultado",
+      "regex": "(?im)^\\s*¿?(?:el resultado|lo mejor|la clave|el truco|el secreto|lo peor|la trampa)\\?\\s*$",
+      "name": "Línea de pregunta retórica de una palabra",
+      "fix": "Responde en la misma frase en vez de montar una revelación."
+    },
+    {
+      "id": "lo-que-aprendi",
+      "regex": "(?i)\\b(?:esto es lo que|aqu[ií] est[aá] lo que|esto fue lo que|ac[aá] est[aá] lo que) (?:aprend[ií]|aprendimos)\\b",
+      "name": "\"Esto es lo que aprendí\"",
+      "fix": "Di lo que aprendiste. Sáltate el anuncio."
+    },
+    {
+      "id": "triada",
+      "regex": "(?i)\\b\\w+, \\w+ y \\w+\\.",
+      "name": "Trío de tres (\"rápido, fácil y barato.\")",
+      "fix": "Dos cosas o cuatro. Tres es el ritmo por defecto de las máquinas."
+    },
+    {
+      "id": "cohete",
+      "regex": "[\\U0001F680\\U0001F525\\U0001F4A1\\u2728\\U0001F3AF]",
+      "name": "Emoji de cohete / fuego / bombillo / brillos / diana",
+      "fix": "Un emoji máximo, y que no sea uno de estos cinco."
+    },
+    {
+      "id": "muro-hashtags",
+      "regex": "(?:#\\w+[ \\t]*){6,}",
+      "name": "Muro de hashtags (más de 5)",
+      "fix": "Instagram ya no permite más de 5 por publicación. Deja de 3 a 5, específicos."
+    },
+    {
+      "id": "como-ia",
+      "regex": "(?i)\\bcomo (?:una )?(?:ia|inteligencia artificial|modelo de lenguaje)\\b",
+      "name": "La máquina hablando de sí misma",
+      "fix": "Borra la frase."
+    },
+    {
+      "id": "en-resumen",
+      "regex": "(?im)^\\s*(?:en resumen|en conclusi[oó]n|para concluir|para resumir|en definitiva)\\b",
+      "name": "Cierre de ensayo",
+      "fix": "Una publicación no necesita un párrafo de conclusión."
+    },
+    {
+      "id": "carnada",
+      "regex": "(?im)¿\\s*(?:est[aá]s de acuerdo|qu[eé] opinas|qui[eé]n m[aá]s|me equivoco|t[uú] qu[eé] piensas|y t[uú]|y ustedes)\\s*\\?\\s*$",
+      "name": "Carnada de interacción por reflejo",
+      "fix": "Haz una pregunta que solo tú podrías hacer, sobre lo concreto que acabas de decir."
+    },
+    {
+      "id": "deja-scroll",
+      "regex": "(?im)^\\s*¡?\\s*(?:deja de (?:hacer )?scroll|no (?:hagas|des) scroll|para de (?:hacer )?scroll|espera,? no (?:pases|deslices|hagas scroll|te vayas))",
+      "name": "Empezar con \"deja de hacer scroll\"",
+      "fix": "Lo que detiene el dedo tiene que ser la idea misma. Pedir atención delata que no te la ganaste."
+    },
+    {
+      "id": "en-este-video",
+      "regex": "(?i)\\b(?:en (?:este|el) (?:video|reel|post)(?: de hoy)?|hoy (?:te|les) voy a (?:mostrar|ense[ñn]ar|contar)|(?:te|les) voy a (?:mostrar|ense[ñn]ar) c[oó]mo)\\b",
+      "name": "Introducción de video (\"en este video te voy a mostrar\")",
+      "fix": "Bórrala y empieza por la recompensa. Los primeros dos segundos deciden todo el reel."
+    },
+    {
+      "id": "emoji-vinetas",
+      "regex": "(?m)^\\s*[\\U0001F300-\\U0001FAFF✅➡⬅✔✨]\\s*\\S",
+      "name": "Lista con emojis como viñetas",
+      "fix": "Usa un guion o un salto de línea. Las viñetas con emoji son lo que más parece plantilla en un texto."
+    },
+    {
+      "id": "mayusculas",
+      "regex": "\\b[A-ZÁÉÍÓÚÑ]{3,}\\b(?:\\s+\\b[A-ZÁÉÍÓÚÑ]{3,}\\b){2,}",
+      "name": "Tres o más palabras seguidas en MAYÚSCULAS",
+      "fix": "Las mayúsculas son volumen, no resaltador. Una palabra, como mucho."
+    },
+    {
+      "id": "carnada-seguir",
+      "regex": "(?i)\\b(?:s[ií]gue(?:me|nos) para m[aá]s|etiqueta a (?:alguien|tu amig[oa]|ese amig[oa])|dale (?:doble tap|like) si|comparte (?:esto )?si|comenta (?:abajo )?si)\\b",
+      "name": "Pedir seguir o etiquetar por reflejo",
+      "fix": "Pide la única acción que esta publicación se gana. El pedido genérico enseña a ignorar todos los pedidos."
+    }
+  ]
+}
